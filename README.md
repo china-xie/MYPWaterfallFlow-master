@@ -107,7 +107,7 @@ if (UIInterfaceOrientationIsPortrait(self.interfaceOrientation)) {//竖屏
 
 屏幕旋转完毕时调用:
 
-```
+```OC
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
 {
     NSLog(@"屏幕旋转完毕");
